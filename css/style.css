@@ -99,7 +99,7 @@ main img{
 
 
 .text{
-    width: 900px;
+    width: 80%;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -265,4 +265,208 @@ footer{
     font-size: 16px;
     font-weight: bolder;
     margin-top: 40px;
+}
+
+
+@media (max-width: 1070px){
+    .emoji4{
+        right: 350px;
+    }
+
+    .emoji3{
+        top: 950px;
+    }
+}
+
+@media (max-width: 1000px){
+    .text{
+        margin-top: 250px;
+    }
+
+
+    .text p{
+        font-size: 60px;
+        width: 140%;
+    }
+
+    .emoji3{
+        top: 1000px;
+        left: 20px;
+    }
+
+    .emoji4{
+        top: 1100px;
+    }
+
+    .emoji5{
+        top: 980px;
+    }
+}
+
+
+@media (max-width: 800px){
+
+    header{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .header{
+        width: 95%;
+    }
+
+    .search{
+        margin-right: 15px;
+    }
+
+    .emoji1{
+        top: 140px;
+        left: 10px;
+    }
+
+    .emoji2{
+        top: 250px;
+        right: 10px;
+    }
+
+    .emoji4{
+        top: 1200px;
+        right: 250px;
+    }
+
+    footer{
+        margin-top: 100px;
+    }
+
+    .text p{
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 647px){
+    .text p{
+        width: 140%;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        gap: 50px;
+    }
+
+    .emoji4{
+        right: 100px;
+    }
+}
+
+@media (max-width: 610px){
+    .button1{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: 150px;
+        gap: 25px;
+    }
+
+
+    .emoji3{
+        top: 1100px;
+    }
+
+    .emoji4{
+        top: 1300px;
+    }
+
+    .emoji5{
+        top: 1050px;
+    }
+
+    .text p{
+        font-size: 50px;
+    }
+}
+
+
+@media (max-width: 525px){
+    footer{
+        margin-top: 280px;
+    }
+
+    .footer1{
+        width: 100%;
+    }
+
+    .text{
+        margin-top: 400px;
+    }
+
+    .emoji2{
+        top: 350px;
+    }
+
+    .emoji3{
+        top: 1250px;
+        left: 55px;
+    }
+
+    .emoji4{
+        top: 1700px;
+    }
+
+    .emoji5{
+        top: 1500px;
+    }
+}
+
+@media (max-width: 420px){
+    .header{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text{
+        margin-top: 480px;
+    }
+
+    .emoji1{
+        top: 200px;
+    }
+
+    .emoji2{
+        top: 530px;
+    }
+
+    .emoji3{
+        top: 1350px;
+    }
+
+    .emoji4{
+        top: 1800px;
+    }
+
+    .emoji5{
+        top: 1600px;
+    }
+
+    footer{
+        width: 96%;
+    }
+}
+
+@media (max-width: 350px){
+    .text p{
+        font-size: 40px;
+    }
+
+    .emoji1{
+        width: 250px;
+        height: 250px;
+        left: 2px;
+        top: 250px;
+    }
 }
